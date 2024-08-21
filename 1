@@ -1,3 +1,23 @@
+Chuột phải vào Ổ đĩa hoặc thư mục chứa ổ đĩa ( lưu ý: chuột phải bên ngoài sẽ không hiện lên để vào)
+- màn hình hiện lên: Open Git Bash here
++ gõ vào lệnh khai báo tên người dùng: git config --global user.name "Quang Chip"
++ gõ vào lệnh khai báo email người dùng: git config --global user.email qnguyenvanquang@rocketmail.com
++ gõ vào lệnh kiểm tra tên và email người dùng (xem đã khai đúng chưa và còn thiếu hay không): git config --list
+Xong phần - Git Bash
+
+tiếp theo khai báo ở VScode hoặc có thể khai báo tiếp ở Git Bash - khai ở VScode cho tiện
+-Ở VScode mở phần terminal
++ gõ lệnh tạo tệp git: git init
++ gõ lệnh thêm tệp: git add . (Lưu ý dấu chấm)
++ gõ lệnh thực hiện đẩy dữ liệu mới và tên thay đổi thêm commit: git commit -m "fist commit"
++ gõ lệnh xác nhận đẩy dữ liệu lên git: git remote add origin https://github.com/Integrated-circuit-design/Bai-Tap-C---18-8-2024.git
++ gõ lệnh xác nhận đẩy dữ liệu vào đúng nhánh: git branch -M master
++ gõ lệnh xác nhận đẩy dữ liệu thành công: git push origin master
++ gõ lệnh đổi nhánh nếu bị lỗi nhánh (thường thì master là thành công): git branch -M master
+
+
+
+
 I.  Giới thiệu Git:
     * Tóm tắt:
       - Git dùng để quản lý phiên bản code, rất thuận lợi trong làm việc nhóm thậm chí làm 1 mình.
